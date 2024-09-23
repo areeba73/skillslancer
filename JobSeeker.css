@@ -1,0 +1,337 @@
+/* section1 */
+.jobcont{
+    margin-top: 10% !important;
+}
+@media (max-width: 768px) {
+    .jobcont{
+        margin-top: 30% !important;
+    }
+}
+@media (max-width: 425px) {
+    .jobcont{
+        margin-top: 50% !important;
+    }
+}
+@media (max-width: 375px) {
+    .jobcont{
+        margin-top: 60% !important;
+    }
+}
+@media (max-width: 320px) {
+    .jobcont{
+        margin-top: 70% !important;
+    }
+}
+.sec2{
+    margin-top: 5%;
+    font-size: 5rem;
+    color: black;
+    font-weight: 700;   
+}
+.wemake{
+    font-size: 1.4rem;
+}
+@media (max-width:768px){
+    .sec2{
+        font-size: 45px !important;
+    }
+    .wemake{
+        font-size: 1rem;
+    }
+  }
+@media (max-width:554px){
+    .sec2{
+        /* text-align: center; */
+        font-size: 24px !important;
+    line-height: 31px;
+    letter-spacing: -.2px;
+    font-weight:600;
+    }
+    .wemake{
+        font-size: 1rem;
+    }
+  }
+.find4{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 1px solid #7f9d96;
+    margin-left: 10% !important;
+    border-radius: 15px;
+    /* transition: box-shadow 0.3s ease-in-out; */
+    margin-left:6% !important;
+    width: 21% !important;
+    height: 9vh !important;
+}
+.find5{
+    background-color: #7f9d96 !important;
+    font-weight: bold;
+    width: 21% !important;
+    height: 9vh !important;
+    font-size: 1rem;    color: white !important;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin-left: -22% !important;
+}
+.find4:hover{
+       background-color: #7f9d96 !important;
+    box-shadow: 0 0 10px  #7f9d96;
+    color: white !important;
+}
+.find5:hover{
+    background-color:white !important;
+ box-shadow: 0 0 10px  #7f9d96;
+ color: black !important;
+}
+
+ @media (max-width:768px){
+    .find4{
+        height: 12vh !important;
+       width: 22% !important; 
+    }
+    .find5{
+        height: 12vh !important;
+       width: 22% !important; 
+       margin-left: -20% !important;
+    }
+  }
+  @media (max-width:425px){
+    .find4{
+        height: 10vh !important;
+       width: 50% !important; 
+    }
+    .find5{
+        height: 10vh !important;
+       width: 50% !important; 
+       margin-left: 1% !important;
+    }
+  } 
+  @media (max-width:375px){
+    .find4{
+        height: 10vh !important;
+       width: 50% !important; 
+    }
+    .find5{
+        height: 10vh !important;
+       width: 50% !important; 
+       margin-left: 1% !important;
+    }
+  } 
+  @media (max-width:320px){
+    .find4{
+        height: 10vh !important;
+       width: 50% !important; 
+    }
+    .find5{
+        height: 10vh !important;
+       width: 50% !important; 
+       margin-left: 20% !important;
+    }
+  } 
+.d-inline{
+    margin-left: 23%;
+}
+/* section1 end */
+
+
+/* section 2 start */
+
+/* section2 end */ 
+/* section 3 start*/ 
+.prod
+{
+    margin-top: 5%;
+    width: 90%;
+}
+.got{
+    font-family: Graphik, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20%;
+    line-height: 18px;
+}
+.why{
+    font-size: 2.5rem;
+    line-height: 50px;
+    /* letter-spacing: -.8px; */
+    font-weight: 600;
+    font-family: Graphik, sans-serif;
+}
+.profile{
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+.brand{
+    margin-left: 15%;
+}
+.box{
+    border-radius: 50%;
+    height: 9vh;
+    width: 9%;
+    background-color:#ffdfda ;
+}
+.con{
+margin-top: -9%;
+margin-left: 13%;
+font-size: 1rem;
+font-weight:500 ;
+}
+@media (max-width: 768px) {
+    .why {
+        font-size: 1.2rem; 
+    }
+    .box {
+        height: 12vh; 
+        width: 11%; 
+    }
+    .con {
+        margin-top: -5%; 
+        margin-left: 15%; 
+    }
+}
+
+@media (max-width: 576px) {
+    .why {
+        font-size: 1.2rem; 
+    }
+    .box {
+        height: 12vh; 
+        width: 19%; 
+        margin-left: -10%;
+        margin-top: 5%;
+    }
+    .con {
+        margin-top: -22%; 
+        margin-left: 15%; 
+        font-size: 0.8rem; 
+    }
+}
+
+.sign2:hover{
+    color: whitesmoke !important;
+    border: 1px solid #58b79c !important;
+    background-color: #7f9d96 !important;
+    box-shadow: 0 0 6px #58B79C !important;
+}
+.sign2{
+    background-color: #7f9d96 !important;
+    color: white ;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 10px;
+}
+@media (max-width: 320px) {
+    .sign2{
+        width: 85% !important;
+        margin-top: 15% !important;
+        margin-left: 4% !important;
+    }
+}
+/* section 3 end */
+ /* section 5  */
+
+ .trans{
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+ }
+ .trans:hover{
+    transform: scale(1.03);
+ }
+ .get{
+    background-color: #f4b640;
+    border-radius: 20px 20px 20px 20px;
+ }
+ .sal{
+    background-color: #541142;
+    border-radius: 20px 20px 20px 20px;
+ }
+ @media (max-width: 768px) {
+    .sal{
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+}
+@media (max-width: 554px) {
+    .sal{
+        margin-left: 5%;
+        margin-top: 5%;
+        width:95% ;
+    }
+}
+@media (max-width: 320px) {
+    .sal{
+        margin-left: 8%;
+        margin-top: 5%;
+        width: 90%;
+    }
+}
+ .apply{
+    margin-top: 18%;
+ }
+ .apply2{
+    margin-top: 25%;
+ }
+ .half{
+    margin-top: -25%;
+    margin-left: 92.3%;
+ }
+ .half1{
+    margin-top: -20%;
+    margin-left: 92.3%;
+ }
+ .l1{
+    position: absolute;
+    top: 78%;
+    left: 78%;
+    color: black;
+ }
+ 
+ .i2{
+    color: white;
+    margin-top: 2%; 
+    margin-left: 2%;
+     }
+ .l2{
+    position: absolute;
+    top: 76%;
+    left: 77%; 
+ }
+ .fa-solid{
+    color: white;
+    position: absolute;
+        top: 76%;
+        left: 92.5%; 
+     }
+     /* Responsive Adjustments */
+@media (max-width: 768px) {
+    .half,
+    .half1 {
+        visibility: hidden;
+    }
+
+    .l1 {
+        top: 93%; 
+        left: 30%; 
+        transform: translate(-50%, -50%);
+    }
+
+    .l2 {
+        top: 97%; 
+        left: 40%;
+        padding-bottom: 5%; 
+        transform: translate(-50%, -50%);
+    }
+
+    .fa-solid {
+        visibility: hidden;
+    }
+}
+ .l1:hover{
+    color: black;
+ }
+ .l2:hover{
+    color: white;
+ }
+  /* section 5 end  */
+ 

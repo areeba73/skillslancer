@@ -1,0 +1,37 @@
+/* Importing all CSS files */
+@import url("./Header.css");
+@import url("./Footer.css");
+@import url("./home.css");
+@import url("./Section3.css");
+@import url("./Slider.css");
+@import url("./Section9.css");
+@import url("./Section10.css");
+@import url("./JobSeeker.css");
+@import url("./ForCompanies.css");
+@import url("./Customers.css");
+@import url("./Pricing.css");
+@import url("./Login.css");
+@import url("./Signup.css");
+@import url("./signupC.css");
+@import url("./Discover.css");
+@import url("./FAQ.css");
+@import url("./ForgotPassword.css");
+@import url("./post.css");
+/* Defaults */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden !important  ;
+  font-family: Graphik, sans-serif !important;
+}
+/* Primary Variables */
+:root {
+  --primary: "green";
+}
+.h1,h2,h3,h4,h5,h6{
+  color: #0d3d35 !important;
+}
+

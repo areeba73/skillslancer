@@ -1,0 +1,19 @@
+/* section 10 start */
+.color{
+    background-color: #0d3d35 !important;
+    margin-left: -8% !important;
+    margin-bottom: -5% !important;
+ }
+ .bod{
+    width: 60% !important;
+    border: 1px solid rgb(125, 109, 109) !important;
+    border-radius: 10px !important;
+    color: white !important;
+    background-color: transparent !important;
+ }
+ .bod:hover{
+    background-color: #58b79c !important;
+    color: white !important;
+ }
+ 
+  /* section 10 end */

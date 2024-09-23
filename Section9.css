@@ -1,0 +1,25 @@
+ /* section 9 start */
+ .moreposts{
+    border: 1px solid #58b79c;
+    border-radius: 10px;
+    background: #7f9d96;
+    color: white;
+}
+.moreposts:hover{
+    color: black;
+  border: 1px solid #58b79c;
+  background-color: white !important;
+  box-shadow: 0 0 6px #58B79C;}
+.hov:hover{
+    /* transition: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+    width: 95%;
+    height: 30vh;
+    border-radius: 10px;
+    margin-left: 3%;
+    /* color: #ec2e3a; */
+    background-color:#698d89 ;
+}
+.para{
+  color: #04352d !important;
+}
+  /* section 9 end */

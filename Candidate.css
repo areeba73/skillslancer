@@ -1,0 +1,416 @@
+/* Basic Container Layout */
+.continer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background-color: #0d3d3f;
+  padding: 20px;
+
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  /* background-color: #fff; */
+  /* border: 1px solid #ddd; */
+  cursor: pointer;
+  color: white;
+}
+
+.sidebar li:hover {
+  background-color: #769b96;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #fff;
+}
+
+/* Form Styles */
+.account-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="url"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.upload-logo {
+  border: 2px dashed #ddd;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back-button
+ {
+  background-color: #7f9d96 !important;
+  color: white !important;
+  font-weight: 500!important;
+  font-size: 1rem;
+
+  border: none !important;
+  border-radius: 12px !important;
+}
+
+.back-button {
+  color: black !important;
+  border: 1px solid #58b79c !important;
+  background-color: white !important;
+  box-shadow: 0 0 6px #58B79C !important;
+}
+.next-button{
+  background-color:white !important;
+  color: black !important;
+  font-weight: 500 !important;
+  font-size: 1rem;
+  border: 1px solid #7b898f !important;
+  border-radius: 12px !important;
+}
+.next-button {
+  background-color: #7f9d96  !important;
+  box-shadow: 0 0 6px #7f9d96  !important;
+  color: white !important;
+  border: 1px solid #58b79c !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="url"] {
+    padding: 8px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .back-button,
+  .next-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+.label {
+  font-weight: bold; /* Bold labels */
+  margin-bottom: 5px; /* Space below labels */
+}
+
+.upload-photo {
+  margin: 15px 0; /* Space around the upload section */
+}
+
+
+
+.upload-button label {
+  cursor: pointer; /* Pointer cursor for label */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="file"] {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding for comfort */
+  border: 1px solid #ced4da; /* Light border */
+  border-radius: 5px; /* Rounded input */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and label */
+}
+
+.terms {
+  margin: 15px 0; /* Space around terms section */
+}
+
+.button-group {
+  display: flex; /* Flex for button alignment */
+  justify-content: space-between; /* Space between buttons */
+}
+
+.back-button,
+.next-button {
+  padding: 10px 20px; /* Padding for buttons */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.back-button {
+  background-color: #6c757d; /* Bootstrap secondary color */
+  color: white; /* White text */
+}
+
+.next-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .account-section {
+    padding: 15px; /* Reduce padding on small screens */
+  }
+
+  .upload-button {
+    padding: 8px 16px; /* Adjust button padding */
+  }
+
+  .back-button,
+  .next-button {
+    padding: 8px 16px; /* Adjust button padding */
+  }
+}
+.team-invite-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.w1 {
+  text-align: center;
+}
+
+.u1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.email-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.add-member-btn {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  background-color: transparent;
+  color: #769b96;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.add-member-btn:hover {
+  text-decoration: underline;
+  background-color: #0d3d3f;
+  text-decoration: none;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.skip-btn,
+.next-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.skip-btn {
+  background-color: #7f9d96 !important;
+  color: white !important;
+  font-weight: 500!important;
+  font-size: 1rem;
+
+  border: none !important;
+  border-radius: 12px !important;
+}
+
+.rec-btn {
+  background-color:white !important;
+    color: black !important;
+    font-weight: 500 !important;
+    font-size: 1rem;
+    border: 1px solid #7b898f !important;
+    border-radius: 12px !important;
+}
+
+.skip-btn:hover,
+.rec-btn:hover {
+  background-color: #7f9d96  !important;
+  box-shadow: 0 0 6px #7f9d96  !important;
+  color: white !important;
+  border: 1px solid #58b79c !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .team-invite-container {
+    padding: 10px;
+  }
+
+  .email-input,
+  .add-member-btn {
+    width: 100%;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .skip-btn,
+  .next-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.completion-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.w1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.u1{
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.completion-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.find-talent-btn {
+  background-color: #7f9d96 !important;
+    color: white !important;
+    font-weight: 500!important;
+    font-size: 1rem;
+  
+    border: none !important;
+    border-radius: 12px !important;
+}
+
+.find-talent-btn:hover {
+  color: black !important;
+  border: 1px solid #58b79c !important;
+  background-color: white !important;
+  box-shadow: 0 0 6px #58B79C !important;
+}
+
+.post-job-btn {
+  background-color:white !important;
+    color: black !important;
+    font-weight: 500 !important;
+    font-size: 1rem;
+    border: 1px solid #7b898f !important;
+    border-radius: 12px !important;
+}
+
+.post-job-btn:hover {
+  background-color: #7f9d96  !important;
+  box-shadow: 0 0 6px #7f9d96  !important;
+  color: white !important;
+  border: 1px solid #58b79c !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .completion-container {
+    padding: 10px;
+  }
+
+  .completion-buttons {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,185 @@
+
+body {
+    overflow-x: hidden;
+    font-family: Graphik, sans-serif;
+    }
+    .top1{
+margin-left: 10%;
+
+    }
+    
+    .login{
+        margin-left: -32%;
+        text-align: center;
+            }
+    .well {
+    margin-top: -10%;
+    margin-left: 25%;
+    }
+    .login {
+    margin-top: 5%;
+    font-weight: 700;
+    }
+    .google {
+    width: 65%;
+    height: 7vh;
+    font-size: 0.9rem;
+    border: 1px solid rgb(125, 109, 109);
+    border-radius: 3px;
+    font-weight: 600;
+    background: transparent;
+    }
+    .google:hover {
+    background-color: rgb(181, 196, 191);
+    }
+    .email {
+    font-size: 0.8rem;
+    color: rgb(116, 141, 132);
+    }
+    .input1, .input2 {
+    width: 64% !important;
+    border: 1px solid rgb(125, 109, 109);
+    border-radius: 3px;
+    height: 6vh;
+    }
+    .password1 {
+    color: black;
+    text-decoration-line: underline;
+    font-size: 0.9rem;
+    }
+    .password1:hover {
+    color: rgb(24, 101, 173);
+    }
+    .form {
+    margin-top: -2%;
+    }
+    .black {
+    background: black;
+    color: white;
+    width: 65.5%;
+    height: 7vh;
+    border-radius: 3px;
+    }
+    .black:hover {
+    background: blue;
+    }
+    .pl {
+    margin-left: -7%;
+    }
+    .looking {
+    /* font-size: 0.8rem; */
+    font-weight: 600;
+    text-align: center;
+    /* color: #717584; */
+    }
+    .account {
+    color: black;
+    text-decoration-line: underline;
+    }
+    .made {
+    margin-left: 30%;
+    width: 45%;
+    text-align: center;
+    }
+    .you {
+    font-size: 3rem;
+    font-weight: bold;
+    }
+    .Browse {
+    margin-bottom: 0%;
+    width: 110%;
+    text-align: center;
+    }
+    .the{
+    width: 80%;
+    margin-left: -2%;
+    }
+    .the2{
+        width: 42%;
+        margin-left: -2%;
+        }
+        label{
+            font-weight: 700;
+            margin-top: -1%;
+        }
+        
+        .text-center{
+           width: 50%; 
+           margin-left: 25%;
+           font-size: 0.8rem;
+        }
+    @media (max-width: 992px) {
+        .login{
+            margin-left: 5%;
+            font-size: 1.4rem;
+            text-align: center;
+                }
+    .you {
+    margin-top: -75px;
+    width: 70%;
+    margin-left: -3%;
+    font-size: 1.3rem;
+    }
+    .the{
+    /* margin-top: -10px; */
+    width: 40%;
+    margin-left: 65%;
+    }
+    .the2{
+        margin-top: -354px;
+        width: 35%;
+        margin-left: -6%;
+        }
+    .Browse {
+    visibility: hidden;
+    }
+    .top{
+    margin-top: -70%;
+    margin-left: -40%;
+    }
+    .top1{
+    visibility: hidden;
+    }
+    .google{
+    width: 105%;
+    height: 10vh;
+    }
+    .email{
+    font-size: 1.1rem;
+    }
+    .hr{
+    margin-top: -13%;
+    }
+    .d{
+    visibility: hidden;
+    }
+    .input1{
+    margin-left: -40%;
+    width: 147%;
+    height: 10vh;
+    }
+    .input2{
+    margin-left: -40%;
+    width: 147%;
+    height: 10vh;
+    }
+    .black{
+    margin-left: -40%;
+    width: 147%;
+    height: 10vh;
+    }
+    label{
+      margin-left: -38%;
+    }
+   
+    }
+    label{
+        font-weight: 700;
+        margin-top: -1%;
+    }
+    
+    .text-center{
+       width: 50%; 
+       margin-left: 25%;
+       font-size: 0.8rem;
+    }

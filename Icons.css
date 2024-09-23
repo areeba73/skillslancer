@@ -1,0 +1,86 @@
+/* Style for the box containing everything */
+.box-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the box */
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff; /* Box background */
+    box-shadow: 0 4px 8px rgba(214, 196, 196, 0.1); /* Add a shadow for effect */
+}
+
+/* Icon row container */
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Align icons in a single row */
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    width: 100px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Set icons and text color to black */
+.icon-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    filter: brightness(0); /* This makes the icon black */
+}
+
+.icon-item p {
+    text-align: center;
+    font-size: 14px;
+    color: black; /* Change text color to black */
+}
+
+/* Hover effect */
+.icon-item:hover {
+    background-color: #0d3d35;
+    border-radius: 10px;
+    color: white !important; /* Make sure text color is white on hover */
+}
+
+.icon-item:hover p {
+    color: white ; /* Ensure text color is white on hover */
+}
+
+.icon-item:hover img {
+    filter: brightness(100); /* Restore icon to its original color on hover */
+}
+
+.icon-item.active {
+    background-color: #759d96!important;
+    border-radius: 10px;
+    color: white !important;
+}
+
+/* Align the content box below the icon row */
+.content-box {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; /* Add some space between icons and content */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .icon-row {
+        flex-wrap: wrap; /* Stack icons if the screen is too small */
+    }
+
+    .icon-item {
+        width: auto;
+        padding: 10px;
+    }
+}

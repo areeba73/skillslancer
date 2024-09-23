@@ -1,0 +1,64 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+/* banner  */
+.titlebanner{
+    font-size: 4em !important;
+color: black !important;
+font-weight: bold !important;
+}
+.cus{
+    margin-top: 10% !important;
+}
+@media (max-width: 768px) {
+    .cus{
+        margin-top: 28% !important;
+    }
+}
+@media (max-width: 425px) {
+    .cus{
+        margin-top: 40% !important;
+    }
+}
+@media (max-width: 375px) {
+    .cus{
+        margin-top: 50% !important;
+    }
+}
+@media (max-width: 320px) {
+    .cus{
+        margin-top: 55% !important;
+    }
+}
+.parabanner{
+    font-size: large !important ;
+    color: black !important;
+    margin-top: 8% !important;
+}
+
+
+@media screen and (max-width:320px) {
+    .titlebanner{
+        font-size: 2em !important;
+    color: black !important;
+    font-weight: bold !important;
+    }
+}
+
+/* section 1 */
+.cd1{
+    background-image: linear-gradient(90deg, #fceee6, #eef0fe) !important;
+}
+.card-para{
+    font-size: small !important;
+    color: black !important;
+    /* font-size: 1em !important; */
+    font-weight: 400 !important;
+}
+
+.card-text{
+    color: black !important;
+} 
+/* section 3 */
